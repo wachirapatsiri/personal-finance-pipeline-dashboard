@@ -1,16 +1,20 @@
-# 💰 Personal Finance Data Pipeline & Dashboard
+# 💰 Personal Finance Data Pipeline & Interactive Dashboard
 
 ## 📌 Project Overview
-An end-to-end data pipeline built to automate the extraction, cleaning, and categorization of personal finance transactions, culminating in an interactive dashboard for financial tracking.
+An automated data pipeline and interactive Gradio dashboard designed to clean, consolidate, and visualize messy personal transaction records for optimized budget planning.
 
 ## 🎯 Business Problem
-Tracking personal expenses manually is time-consuming. Transaction records often contain messy data, inconsistent date formats, and spelling variations for the same merchant (e.g., "Shopee", "SHOPEE THAILAND"), making it difficult to analyze spending behaviors accurately.
+Tracking personal finances manually through raw bank exports is time-consuming and prone to manual entry errors. Merchant names are often spelled inconsistently, making accurate monthly spending analysis difficult. 
 
-## 🛠️ Solution & Action (Tech Stack: Python, Pandas, Matplotlib)
-* **Data Cleaning:** Processed raw financial data by handling missing values, normalizing text, and standardizing datetime formats.
-* **Fuzzy Matching:** Implemented string matching algorithms to automatically detect and categorize similar merchant names, reducing manual tagging errors.
-* **Data Visualization:** Developed a comprehensive dashboard to visualize monthly cash flows, expense breakdowns by category, and top 10 frequent merchants.
+## 🛠️ Solution & Action (Tech Stack: Python, Pandas, TheFuzz, Gradio)
+* **Data Extraction & Cleaning:** Built a Python script to ingest and standardize **2,188** raw transaction records, handling missing values and date reformatting.
+* **Fuzzy Matching:** Implemented Levenshtein distance algorithms (via `thefuzz` library) to automatically detect and group misspelled or inconsistent merchant names.
+* **Deployment:** Designed a user-friendly web UI using Gradio, allowing users to instantly generate categorized spending visualizations.
 
 ## 📈 Key Results
-* Successfully automated the data preparation process, saving hours of manual data entry.
-* Provided clear visibility into spending habits, enabling better budget optimization and financial planning.
+* Successfully consolidated **400** messy, raw merchant names into **10** clean, unique entities, eliminating manual data entry tasks.
+* Delivered a real-time tracking dashboard that categorizes income and expenses, enabling clear visibility into monthly cash flow.
+
+## 💻 Live Demo & UI
+<img width="1458" height="769" alt="image" src="https://github.com/user-attachments/assets/6f857507-0cee-4608-8d3e-16894d4b00b4" />
+
