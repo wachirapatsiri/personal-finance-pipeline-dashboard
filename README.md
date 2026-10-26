@@ -13,7 +13,7 @@ Tracking personal finances manually through raw bank exports is time-consuming a
 
 ## 📈 Key Results
 * Successfully consolidated **400** messy, raw merchant names into **10** clean, unique entities, eliminating manual data entry tasks.
-* Delivered a real-time tracking dashboard that categorizes income and expenses, enabling clear visibility into monthly cash flow.
+* Delivered an interactive tracking dashboard that categorizes income and expenses, enabling clear visibility into monthly cash flow.
 
 ## 💻 Live Demo & UI
 <img width="1458" height="769" alt="image" src="https://github.com/user-attachments/assets/6f857507-0cee-4608-8d3e-16894d4b00b4" />
