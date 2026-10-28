@@ -84,3 +84,13 @@ personal-finance-pipeline-dashboard/
 - Dates are always read day-first.
 - Balance reconciliation only activates when the balance column is consistent.
 - Planned: let users add merchant categories in the UI, deploy permanently on Hugging Face Spaces, and add unit tests as a separate `pytest` suite.
+
+## Team
+
+Team project with 5 members:
+
+- Wachirapat Siriphontangman (repository maintainer)
+- Nichaphat Khoksi
+- Thanaphak Tabun
+- Nanthakan Rotdi
+- Ploysai Butthongyu
