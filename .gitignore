@@ -1,1 +1,7 @@
-
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+thsarabunnew-webfont.ttf
+cleaned_transactions_*.csv
+.DS_Store
+.env
